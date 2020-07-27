@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70218" creator="Ipe 7.2.20">
-<info created="D:20191206101308" modified="D:20200727134312"/>
+<info created="D:20191206101308" modified="D:20200727134637"/>
 <preamble>\usepackage[utf8]{inputenc} % UTF8
 \usepackage[default]{sourcesanspro}
 \usepackage{siunitx} % Einheiten
@@ -337,14 +337,7 @@ h
 <layer name="alpha"/>
 <layer name="beta"/>
 <view layers="alpha" active="alpha"/>
-<path layer="alpha" matrix="1 0 0 1 0 -4" fill="htwkwhite">
-28 828 m
-28 576 l
-576 576 l
-576 828 l
-h
-</path>
-<path matrix="1 0 0 1 88 0.1" stroke="htwkblack" fill="htwkgray100">
+<path layer="alpha" matrix="1 0 0 1 88 0.1" stroke="htwkblack" fill="htwkgray100">
 212 800 m
 212 644 l
 284 644 l
@@ -2224,7 +2217,7 @@ h
 <text matrix="1 0 0 1 40 16" transformations="translations" pos="64 592" stroke="black" type="label" width="25.385" height="6.525" depth="0.11" halign="center" valign="baseline">USCIA</text>
 <text matrix="1 0 0 1 40 16" transformations="translations" pos="64 576" stroke="black" type="label" width="25.823" height="6.525" depth="0.11" halign="center" valign="baseline">USCIB</text>
 <text matrix="1 0 0 1 40 16" transformations="translations" pos="64 560" stroke="htwkwhite" type="label" width="93.967" height="6.518" depth="2.06" halign="center" valign="baseline">ADC10, Comparator A+</text>
-<text matrix="1 0 0 1 -64 4" transformations="translations" pos="464 624" stroke="htwkblack" type="minipage" width="216" height="31.075" depth="26.14" valign="top">Leipzig University of Applied Sciences \\
+<text matrix="1 0 0 1 -64 4" transformations="translations" pos="464 624" stroke="htwkblack" type="minipage" width="180" height="31.075" depth="26.14" valign="top">Leipzig University of Applied Sciences \\
 Faculty of Engineering \\
 Robert Fromm \\
 published unter Creative Commons BY-SA \\
