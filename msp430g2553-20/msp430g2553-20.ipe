@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70218" creator="Ipe 7.2.20">
-<info created="D:20191206101308" modified="D:20200727144044"/>
+<info created="D:20191206101308" modified="D:20200728073337"/>
 <preamble>\usepackage[utf8]{inputenc} % UTF8
 \usepackage[default]{sourcesanspro}
 \usepackage{siunitx} % Einheiten
@@ -297,6 +297,12 @@ h
 <color name="lightgray" value="0.827"/>
 <color name="lightgreen" value="0.565 0.933 0.565"/>
 <color name="lightyellow" value="1 1 0.878"/>
+<color name="htwkgreen1" value="0 0.388 0.2"/>
+<color name="htwkgreen2" value="0.196 0.658 0.435"/>
+<color name="htwkgreen3" value="0 0.89 0.458"/>
+<color name="htwkgreen4" value="0.266 0.89 0.349"/>
+<color name="htwkyellow1" value="1 0.8 0"/>
+<color name="htwkyellow2" value="1 0.666 0"/>
 <dashstyle name="dotted" value="[1 3] 0"/>
 <dashstyle name="dashed" value="[4] 0"/>
 <dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
@@ -351,25 +357,8 @@ h
 196 796 l
 h
 </path>
-<path matrix="1 0 0 1 88 0.1" stroke="black" fill="htwkgray100">
-176 792
-176 796
-176 800
-180 800
-184 800
-188 800
-192 800
-192 796
-192 792
-192 788
-188 788
-184 788
-180 788
-176 788
-176 792 u
-</path>
-<text matrix="1 0 0 1 100 2.1" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="4.951" height="6.516" depth="0" halign="center" valign="baseline">1</text>
-<path matrix="1 0 0 1 88 0.1" stroke="black" fill="htwkgray60">
+<text matrix="1 0 0 1 136 2.1" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="4.951" height="6.516" depth="0" halign="center" valign="baseline">1</text>
+<path matrix="1 0 0 1 112 0.1" stroke="black" fill="htwkgray60">
 144 792
 144 796
 144 800
@@ -385,12 +374,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 72 2.1" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.167" height="6.525" depth="0.11" halign="center" valign="baseline">DVCC</text>
-<path matrix="1 0 0 1 88 2.1" stroke="black" pen="fat">
-192 792 m
-200 792 l
-</path>
-<path matrix="1 0 0 1 88 2.1" stroke="black" pen="fat">
+<text matrix="1 0 0 1 96 2.1" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.167" height="6.525" depth="0.11" halign="center" valign="baseline">DVCC</text>
+<path matrix="1 0 0 1 112 2.1" stroke="black" pen="fat">
 176 792 m
 168 792 l
 </path>
@@ -401,25 +386,8 @@ h
 196 796 l
 h
 </path>
-<path matrix="1 0 0 1 88 -15.9" stroke="black" fill="htwkgray100">
-176 792
-176 796
-176 800
-180 800
-184 800
-188 800
-192 800
-192 796
-192 792
-192 788
-188 788
-184 788
-180 788
-176 788
-176 792 u
-</path>
-<text matrix="1 0 0 1 100 -13.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="4.951" height="6.516" depth="0" halign="center" valign="baseline">2</text>
-<path matrix="1 0 0 1 88 -15.9" stroke="black" fill="htwkgreen">
+<text matrix="1 0 0 1 136 -13.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="4.951" height="6.516" depth="0" halign="center" valign="baseline">2</text>
+<path matrix="1 0 0 1 112 -15.9" stroke="black" fill="htwkgreen">
 144 792
 144 796
 144 800
@@ -435,16 +403,12 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 72 -13.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P1.0</text>
-<path matrix="1 0 0 1 88 -13.9" stroke="black" pen="fat">
-192 792 m
-200 792 l
-</path>
-<path matrix="1 0 0 1 88 -13.9" stroke="black" pen="fat">
+<text matrix="1 0 0 1 96 -13.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P1.0</text>
+<path matrix="1 0 0 1 112 -13.9" stroke="black" pen="fat">
 176 792 m
 168 792 l
 </path>
-<path matrix="1 0 0 1 60 -15.9" stroke="black" fill="htwkdarkblue80">
+<path matrix="1 0 0 1 84 -15.9" stroke="black" fill="htwkdarkblue80">
 144 792
 144 796
 144 800
@@ -460,7 +424,7 @@ h
 148 788
 144 788 u
 </path>
-<path matrix="1 0 0 1 36 -15.9" stroke="black" fill="htwkgray60">
+<path matrix="1 0 0 1 60 -15.9" stroke="black" fill="htwkgray60">
 144 792
 144 796
 144 800
@@ -476,9 +440,9 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 44 -12.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.128" height="4.565" depth="0.08" halign="center" valign="baseline">{\fontsize{7}{0}\selectfont TA0CLK}</text>
-<text matrix="1 0 0 1 20 -13.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="21.619" height="6.525" depth="0.11" halign="center" valign="baseline">ACLK</text>
-<path matrix="1 0 0 1 -72 -15.9" stroke="black" fill="htwkblue">
+<text matrix="1 0 0 1 68 -12.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.128" height="4.565" depth="0.08" halign="center" valign="baseline">{\fontsize{7}{0}\selectfont TA0CLK}</text>
+<text matrix="1 0 0 1 44 -13.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="21.619" height="6.525" depth="0.11" halign="center" valign="baseline">ACLK</text>
+<path matrix="1 0 0 1 -48 -15.9" stroke="black" fill="htwkblue">
 176 792
 176 796
 176 800
@@ -495,7 +459,7 @@ h
 176 788
 176 792 u
 </path>
-<text matrix="1 0 0 1 -60 -13.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="10.371" height="6.525" depth="0.11" halign="center" valign="baseline">A0</text>
+<text matrix="1 0 0 1 -36 -13.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="10.371" height="6.525" depth="0.11" halign="center" valign="baseline">A0</text>
 <path matrix="1 0 0 1 92 -29.9" stroke="black" fill="htwksilver100">
 208 796 m
 208 788 l
@@ -503,25 +467,8 @@ h
 196 796 l
 h
 </path>
-<path matrix="1 0 0 1 88 -31.9" stroke="black" fill="htwkgray100">
-176 792
-176 796
-176 800
-180 800
-184 800
-188 800
-192 800
-192 796
-192 792
-192 788
-188 788
-184 788
-180 788
-176 788
-176 792 u
-</path>
-<text matrix="1 0 0 1 100 -29.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="4.951" height="6.525" depth="0.11" halign="center" valign="baseline">3</text>
-<path matrix="1 0 0 1 88 -31.9" stroke="black" fill="htwkgreen">
+<text matrix="1 0 0 1 136 -29.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="4.951" height="6.525" depth="0.11" halign="center" valign="baseline">3</text>
+<path matrix="1 0 0 1 112 -31.9" stroke="black" fill="htwkgreen">
 144 792
 144 796
 144 800
@@ -537,16 +484,12 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 72 -29.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P1.1</text>
-<path matrix="1 0 0 1 88 -29.9" stroke="black" pen="fat">
-192 792 m
-200 792 l
-</path>
-<path matrix="1 0 0 1 88 -29.9" stroke="black" pen="fat">
+<text matrix="1 0 0 1 96 -29.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P1.1</text>
+<path matrix="1 0 0 1 112 -29.9" stroke="black" pen="fat">
 176 792 m
 168 792 l
 </path>
-<path matrix="1 0 0 1 48 -31.9" stroke="black" fill="htwkdarkblue80">
+<path matrix="1 0 0 1 72 -31.9" stroke="black" fill="htwkdarkblue80">
 144 792
 144 796
 144 800
@@ -562,8 +505,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 32 -29.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.755" height="6.525" depth="0.11" halign="center" valign="baseline">TA0.0</text>
-<path matrix="1 0 0 1 -72 -31.9" stroke="black" fill="htwkblue">
+<text matrix="1 0 0 1 56 -29.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.755" height="6.525" depth="0.11" halign="center" valign="baseline">TA0.0</text>
+<path matrix="1 0 0 1 -48 -31.9" stroke="black" fill="htwkblue">
 176 792
 176 796
 176 800
@@ -580,7 +523,23 @@ h
 176 788
 176 792 u
 </path>
-<text matrix="1 0 0 1 -60 -29.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="10.371" height="6.516" depth="0" halign="center" valign="baseline">A1</text>
+<text matrix="1 0 0 1 -36 -29.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="10.371" height="6.516" depth="0" halign="center" valign="baseline">A1</text>
+<path matrix="1 0 0 1 40 -31.9" stroke="black" fill="htwkyellow">
+144 792
+144 796
+144 800
+148 800
+156 800
+164 800
+168 800
+168 796
+168 792
+168 788
+164 788
+156 788
+148 788
+144 788 u
+</path>
 <path matrix="1 0 0 1 16 -31.9" stroke="black" fill="htwkyellow">
 144 792
 144 796
@@ -597,24 +556,8 @@ h
 148 788
 144 788 u
 </path>
-<path matrix="1 0 0 1 -8 -31.9" stroke="black" fill="htwkyellow">
-144 792
-144 796
-144 800
-148 800
-156 800
-164 800
-168 800
-168 796
-168 792
-168 788
-164 788
-156 788
-148 788
-144 788 u
-</path>
-<text matrix="1 0 0 1 -24 -29.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="16.897" height="6.516" depth="0" halign="center" valign="baseline">RXD</text>
-<text matrix="1 0 0 1 0 -29.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="21.798" height="6.525" depth="0.11" halign="center" valign="baseline">MISO</text>
+<text matrix="1 0 0 1 0 -29.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="16.897" height="6.516" depth="0" halign="center" valign="baseline">RXD</text>
+<text matrix="1 0 0 1 24 -29.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="21.798" height="6.525" depth="0.11" halign="center" valign="baseline">MISO</text>
 <path matrix="1 0 0 1 92 -45.9" stroke="black" fill="htwksilver100">
 208 796 m
 208 788 l
@@ -622,25 +565,8 @@ h
 196 796 l
 h
 </path>
-<path matrix="1 0 0 1 88 -47.9" stroke="black" fill="htwkgray100">
-176 792
-176 796
-176 800
-180 800
-184 800
-188 800
-192 800
-192 796
-192 792
-192 788
-188 788
-184 788
-180 788
-176 788
-176 792 u
-</path>
-<text matrix="1 0 0 1 100 -45.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="4.951" height="6.516" depth="0" halign="center" valign="baseline">4</text>
-<path matrix="1 0 0 1 88 -47.9" stroke="black" fill="htwkgreen">
+<text matrix="1 0 0 1 136 -45.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="4.951" height="6.516" depth="0" halign="center" valign="baseline">4</text>
+<path matrix="1 0 0 1 112 -47.9" stroke="black" fill="htwkgreen">
 144 792
 144 796
 144 800
@@ -656,16 +582,12 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 72 -45.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P1.2</text>
-<path matrix="1 0 0 1 88 -45.9" stroke="black" pen="fat">
-192 792 m
-200 792 l
-</path>
-<path matrix="1 0 0 1 88 -45.9" stroke="black" pen="fat">
+<text matrix="1 0 0 1 96 -45.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P1.2</text>
+<path matrix="1 0 0 1 112 -45.9" stroke="black" pen="fat">
 176 792 m
 168 792 l
 </path>
-<path matrix="1 0 0 1 48 -47.9" stroke="black" fill="htwkdarkblue80">
+<path matrix="1 0 0 1 72 -47.9" stroke="black" fill="htwkdarkblue80">
 144 792
 144 796
 144 800
@@ -681,8 +603,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 32 -45.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.755" height="6.525" depth="0.11" halign="center" valign="baseline">TA0.1</text>
-<path matrix="1 0 0 1 -84 -63.9" stroke="black" fill="htwkblue">
+<text matrix="1 0 0 1 56 -45.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.755" height="6.525" depth="0.11" halign="center" valign="baseline">TA0.1</text>
+<path matrix="1 0 0 1 -60 -63.9" stroke="black" fill="htwkblue">
 176 792
 176 796
 176 800
@@ -699,7 +621,23 @@ h
 176 788
 176 792 u
 </path>
-<text matrix="1 0 0 1 -72 -61.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="10.371" height="6.525" depth="0.11" halign="center" valign="baseline">A3</text>
+<text matrix="1 0 0 1 -48 -61.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="10.371" height="6.525" depth="0.11" halign="center" valign="baseline">A3</text>
+<path matrix="1 0 0 1 40 -47.9" stroke="black" fill="htwkyellow">
+144 792
+144 796
+144 800
+148 800
+156 800
+164 800
+168 800
+168 796
+168 792
+168 788
+164 788
+156 788
+148 788
+144 788 u
+</path>
 <path matrix="1 0 0 1 16 -47.9" stroke="black" fill="htwkyellow">
 144 792
 144 796
@@ -716,7 +654,9 @@ h
 148 788
 144 788 u
 </path>
-<path matrix="1 0 0 1 -8 -47.9" stroke="black" fill="htwkyellow">
+<text matrix="1 0 0 1 0 -45.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="16.398" height="6.516" depth="0" halign="center" valign="baseline">TXD</text>
+<text matrix="1 0 0 1 24 -45.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="21.798" height="6.525" depth="0.11" halign="center" valign="baseline">MOSI</text>
+<path matrix="1 0 0 1 -12 -63.9" stroke="black" fill="htwkblue">
 144 792
 144 796
 144 800
@@ -732,26 +672,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 -24 -45.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="16.398" height="6.516" depth="0" halign="center" valign="baseline">TXD</text>
-<text matrix="1 0 0 1 0 -45.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="21.798" height="6.525" depth="0.11" halign="center" valign="baseline">MOSI</text>
-<path matrix="1 0 0 1 -36 -63.9" stroke="black" fill="htwkblue">
-144 792
-144 796
-144 800
-148 800
-156 800
-164 800
-168 800
-168 796
-168 792
-168 788
-164 788
-156 788
-148 788
-144 788 u
-</path>
-<text matrix="1 0 0 1 -52 -61.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.959" height="6.516" depth="0" halign="center" valign="baseline">REF-</text>
-<path matrix="1 0 0 1 -72 -47.9" stroke="black" fill="htwkblue">
+<text matrix="1 0 0 1 -28 -61.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.959" height="6.516" depth="0" halign="center" valign="baseline">REF-</text>
+<path matrix="1 0 0 1 -48 -47.9" stroke="black" fill="htwkblue">
 176 792
 176 796
 176 800
@@ -768,7 +690,7 @@ h
 176 788
 176 792 u
 </path>
-<text matrix="1 0 0 1 -60 -45.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="10.371" height="6.516" depth="0" halign="center" valign="baseline">A2</text>
+<text matrix="1 0 0 1 -36 -45.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="10.371" height="6.516" depth="0" halign="center" valign="baseline">A2</text>
 <path matrix="1 0 0 1 92 -61.9" stroke="black" fill="htwksilver100">
 208 796 m
 208 788 l
@@ -776,25 +698,8 @@ h
 196 796 l
 h
 </path>
-<path matrix="1 0 0 1 88 -63.9" stroke="black" fill="htwkgray100">
-176 792
-176 796
-176 800
-180 800
-184 800
-188 800
-192 800
-192 796
-192 792
-192 788
-188 788
-184 788
-180 788
-176 788
-176 792 u
-</path>
-<text matrix="1 0 0 1 100 -61.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="4.951" height="6.525" depth="0.11" halign="center" valign="baseline">5</text>
-<path matrix="1 0 0 1 88 -63.9" stroke="black" fill="htwkgreen">
+<text matrix="1 0 0 1 136 -61.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="4.951" height="6.525" depth="0.11" halign="center" valign="baseline">5</text>
+<path matrix="1 0 0 1 112 -63.9" stroke="black" fill="htwkgreen">
 144 792
 144 796
 144 800
@@ -810,12 +715,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 72 -61.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P1.3</text>
-<path matrix="1 0 0 1 88 -61.9" stroke="black" pen="fat">
-192 792 m
-200 792 l
-</path>
-<path matrix="1 0 0 1 88 -61.9" stroke="black" pen="fat">
+<text matrix="1 0 0 1 96 -61.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P1.3</text>
+<path matrix="1 0 0 1 112 -61.9" stroke="black" pen="fat">
 176 792 m
 168 792 l
 </path>
@@ -826,25 +727,8 @@ h
 196 796 l
 h
 </path>
-<path matrix="1 0 0 1 88 -79.9" stroke="black" fill="htwkgray100">
-176 792
-176 796
-176 800
-180 800
-184 800
-188 800
-192 800
-192 796
-192 792
-192 788
-188 788
-184 788
-180 788
-176 788
-176 792 u
-</path>
-<text matrix="1 0 0 1 100 -77.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="4.951" height="6.525" depth="0.11" halign="center" valign="baseline">6</text>
-<path matrix="1 0 0 1 88 -79.9" stroke="black" fill="htwkgreen">
+<text matrix="1 0 0 1 136 -77.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="4.951" height="6.525" depth="0.11" halign="center" valign="baseline">6</text>
+<path matrix="1 0 0 1 112 -79.9" stroke="black" fill="htwkgreen">
 144 792
 144 796
 144 800
@@ -860,12 +744,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 72 -77.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P1.4</text>
-<path matrix="1 0 0 1 88 -77.9" stroke="black" pen="fat">
-192 792 m
-200 792 l
-</path>
-<path matrix="1 0 0 1 88 -77.9" stroke="black" pen="fat">
+<text matrix="1 0 0 1 96 -77.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P1.4</text>
+<path matrix="1 0 0 1 112 -77.9" stroke="black" pen="fat">
 176 792 m
 168 792 l
 </path>
@@ -876,25 +756,8 @@ h
 196 796 l
 h
 </path>
-<path matrix="1 0 0 1 88 -95.9" stroke="black" fill="htwkgray100">
-176 792
-176 796
-176 800
-180 800
-184 800
-188 800
-192 800
-192 796
-192 792
-192 788
-188 788
-184 788
-180 788
-176 788
-176 792 u
-</path>
-<text matrix="1 0 0 1 100 -93.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="4.951" height="6.516" depth="0" halign="center" valign="baseline">7</text>
-<path matrix="1 0 0 1 88 -95.9" stroke="black" fill="htwkgreen">
+<text matrix="1 0 0 1 136 -93.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="4.951" height="6.516" depth="0" halign="center" valign="baseline">7</text>
+<path matrix="1 0 0 1 112 -95.9" stroke="black" fill="htwkgreen">
 144 792
 144 796
 144 800
@@ -910,12 +773,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 72 -93.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P1.5</text>
-<path matrix="1 0 0 1 88 -93.9" stroke="black" pen="fat">
-192 792 m
-200 792 l
-</path>
-<path matrix="1 0 0 1 88 -93.9" stroke="black" pen="fat">
+<text matrix="1 0 0 1 96 -93.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P1.5</text>
+<path matrix="1 0 0 1 112 -93.9" stroke="black" pen="fat">
 176 792 m
 168 792 l
 </path>
@@ -926,25 +785,8 @@ h
 196 796 l
 h
 </path>
-<path matrix="1 0 0 1 88 -111.9" stroke="black" fill="htwkgray100">
-176 792
-176 796
-176 800
-180 800
-184 800
-188 800
-192 800
-192 796
-192 792
-192 788
-188 788
-184 788
-180 788
-176 788
-176 792 u
-</path>
-<text matrix="1 0 0 1 100 -109.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="4.951" height="6.525" depth="0.11" halign="center" valign="baseline">8</text>
-<path matrix="1 0 0 1 88 -111.9" stroke="black" fill="htwkgreen">
+<text matrix="1 0 0 1 136 -109.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="4.951" height="6.525" depth="0.11" halign="center" valign="baseline">8</text>
+<path matrix="1 0 0 1 112 -111.9" stroke="black" fill="htwkgreen1">
 144 792
 144 796
 144 800
@@ -960,12 +802,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 72 -109.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P2.0</text>
-<path matrix="1 0 0 1 88 -109.9" stroke="black" pen="fat">
-192 792 m
-200 792 l
-</path>
-<path matrix="1 0 0 1 88 -109.9" stroke="black" pen="fat">
+<text matrix="1 0 0 1 96 -109.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P2.0</text>
+<path matrix="1 0 0 1 112 -109.9" stroke="black" pen="fat">
 176 792 m
 168 792 l
 </path>
@@ -976,25 +814,8 @@ h
 196 796 l
 h
 </path>
-<path matrix="1 0 0 1 88 -127.9" stroke="black" fill="htwkgray100">
-176 792
-176 796
-176 800
-180 800
-184 800
-188 800
-192 800
-192 796
-192 792
-192 788
-188 788
-184 788
-180 788
-176 788
-176 792 u
-</path>
-<text matrix="1 0 0 1 100 -125.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="4.951" height="6.525" depth="0.11" halign="center" valign="baseline">9</text>
-<path matrix="1 0 0 1 88 -127.9" stroke="black" fill="htwkgreen">
+<text matrix="1 0 0 1 136 -125.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="4.951" height="6.525" depth="0.11" halign="center" valign="baseline">9</text>
+<path matrix="1 0 0 1 112 -127.9" stroke="black" fill="htwkgreen1">
 144 792
 144 796
 144 800
@@ -1010,12 +831,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 72 -125.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P2.1</text>
-<path matrix="1 0 0 1 88 -125.9" stroke="black" pen="fat">
-192 792 m
-200 792 l
-</path>
-<path matrix="1 0 0 1 88 -125.9" stroke="black" pen="fat">
+<text matrix="1 0 0 1 96 -125.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P2.1</text>
+<path matrix="1 0 0 1 112 -125.9" stroke="black" pen="fat">
 176 792 m
 168 792 l
 </path>
@@ -1026,25 +843,8 @@ h
 196 796 l
 h
 </path>
-<path matrix="1 0 0 1 88 -143.9" stroke="black" fill="htwkgray100">
-176 792
-176 796
-176 800
-180 800
-184 800
-188 800
-192 800
-192 796
-192 792
-192 788
-188 788
-184 788
-180 788
-176 788
-176 792 u
-</path>
-<text matrix="1 0 0 1 100 -141.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.525" depth="0.11" halign="center" valign="baseline">10</text>
-<path matrix="1 0 0 1 88 -143.9" stroke="black" fill="htwkgreen">
+<text matrix="1 0 0 1 136 -141.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.525" depth="0.11" halign="center" valign="baseline">10</text>
+<path matrix="1 0 0 1 112 -143.9" stroke="black" fill="htwkgreen1">
 144 792
 144 796
 144 800
@@ -1060,16 +860,12 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 72 -141.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P2.2</text>
-<path matrix="1 0 0 1 88 -141.9" stroke="black" pen="fat">
-192 792 m
-200 792 l
-</path>
-<path matrix="1 0 0 1 88 -141.9" stroke="black" pen="fat">
+<text matrix="1 0 0 1 96 -141.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P2.2</text>
+<path matrix="1 0 0 1 112 -141.9" stroke="black" pen="fat">
 176 792 m
 168 792 l
 </path>
-<path matrix="1 0 0 1 88 4.1" stroke="black" fill="htwkgray60">
+<path matrix="1 0 0 1 112 4.1" stroke="black" fill="htwkgray60">
 96 724
 96 728
 96 732
@@ -1085,8 +881,8 @@ h
 100 720
 96 720 u
 </path>
-<text matrix="1 0 0 1 32 -61.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="33.255" height="6.525" depth="0.11" halign="center" valign="baseline">ADCCLK</text>
-<path matrix="1 0 0 1 88 0.1" stroke="black" fill="htwkblue">
+<text matrix="1 0 0 1 56 -61.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="33.255" height="6.525" depth="0.11" halign="center" valign="baseline">ADCCLK</text>
+<path matrix="1 0 0 1 112 0.1" stroke="black" fill="htwkblue">
 56 728
 56 732
 56 736
@@ -1102,8 +898,8 @@ h
 60 724
 56 724 u
 </path>
-<text matrix="1 0 0 1 -12 -61.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="29.4" height="6.525" depth="0.11" halign="center" valign="baseline">CAOUT</text>
-<path matrix="1 0 0 1 16 -79.9" stroke="black" fill="htwkred">
+<text matrix="1 0 0 1 12 -61.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="29.4" height="6.525" depth="0.11" halign="center" valign="baseline">CAOUT</text>
+<path matrix="1 0 0 1 40 -79.9" stroke="black" fill="htwkyellow2">
 144 792
 144 796
 144 800
@@ -1119,7 +915,7 @@ h
 148 788
 144 788 u
 </path>
-<path matrix="1 0 0 1 -8 -79.9" stroke="black" fill="htwkyellow">
+<path matrix="1 0 0 1 16 -79.9" stroke="black" fill="htwkyellow">
 144 792
 144 796
 144 800
@@ -1135,9 +931,9 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 -24 -77.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="16.777" height="6.525" depth="0.11" halign="center" valign="baseline">SCK</text>
-<text matrix="1 0 0 1 0 -77.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="10.77" height="6.525" depth="0.11" halign="center" valign="baseline">CS</text>
-<path matrix="1 0 0 1 -84 -79.9" stroke="black" fill="htwkblue">
+<text matrix="1 0 0 1 0 -77.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="16.777" height="6.525" depth="0.11" halign="center" valign="baseline">SCK</text>
+<text matrix="1 0 0 1 24 -77.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="10.77" height="6.525" depth="0.11" halign="center" valign="baseline">CS</text>
+<path matrix="1 0 0 1 -60 -79.9" stroke="black" fill="htwkblue">
 176 792
 176 796
 176 800
@@ -1154,8 +950,8 @@ h
 176 788
 176 792 u
 </path>
-<text matrix="1 0 0 1 -72 -77.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="10.371" height="6.516" depth="0" halign="center" valign="baseline">A4</text>
-<path matrix="1 0 0 1 -36 -79.9" stroke="black" fill="htwkblue">
+<text matrix="1 0 0 1 -48 -77.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="10.371" height="6.516" depth="0" halign="center" valign="baseline">A4</text>
+<path matrix="1 0 0 1 -12 -79.9" stroke="black" fill="htwkblue">
 144 792
 144 796
 144 800
@@ -1171,8 +967,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 -52 -77.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="20.812" height="6.516" depth="0" halign="center" valign="baseline">REF+</text>
-<path matrix="1 0 0 1 88 0.1" stroke="black" fill="htwkgray60">
+<text matrix="1 0 0 1 -28 -77.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="20.812" height="6.516" depth="0" halign="center" valign="baseline">REF+</text>
+<path matrix="1 0 0 1 112 0.1" stroke="black" fill="htwkgray60">
 100 712
 100 716
 100 720
@@ -1188,8 +984,8 @@ h
 104 708
 100 708 u
 </path>
-<text matrix="1 0 0 1 32 -77.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="28.862" height="6.525" depth="0.11" halign="center" valign="baseline">SMCLK</text>
-<path matrix="1 0 0 1 16 -95.9" stroke="black" fill="htwkred">
+<text matrix="1 0 0 1 56 -77.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="28.862" height="6.525" depth="0.11" halign="center" valign="baseline">SMCLK</text>
+<path matrix="1 0 0 1 40 -95.9" stroke="black" fill="htwkyellow2">
 144 792
 144 796
 144 800
@@ -1205,7 +1001,7 @@ h
 148 788
 144 788 u
 </path>
-<path matrix="1 0 0 1 -8 -95.9" stroke="black" fill="htwkyellow">
+<path matrix="1 0 0 1 16 -95.9" stroke="black" fill="htwkyellow">
 144 792
 144 796
 144 800
@@ -1221,9 +1017,9 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 -24 -93.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="10.77" height="6.525" depth="0.11" halign="center" valign="baseline">CS</text>
-<text matrix="1 0 0 1 0 -93.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="16.777" height="6.525" depth="0.11" halign="center" valign="baseline">SCK</text>
-<path matrix="1 0 0 1 -72 -95.9" stroke="black" fill="htwkblue">
+<text matrix="1 0 0 1 0 -93.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="10.77" height="6.525" depth="0.11" halign="center" valign="baseline">CS</text>
+<text matrix="1 0 0 1 24 -93.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="16.777" height="6.525" depth="0.11" halign="center" valign="baseline">SCK</text>
+<path matrix="1 0 0 1 -48 -95.9" stroke="black" fill="htwkblue">
 176 792
 176 796
 176 800
@@ -1240,9 +1036,9 @@ h
 176 788
 176 792 u
 </path>
-<text matrix="1 0 0 1 -60 -93.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="12.364" height="6.525" depth="0.11" halign="center" valign="baseline">A5
+<text matrix="1 0 0 1 -36 -93.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="12.364" height="6.525" depth="0.11" halign="center" valign="baseline">A5
 </text>
-<path matrix="1 0 0 1 48 -95.9" stroke="black" fill="htwkdarkblue80">
+<path matrix="1 0 0 1 72 -95.9" stroke="black" fill="htwkdarkblue80">
 144 792
 144 796
 144 800
@@ -1258,8 +1054,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 32 -93.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.755" height="6.525" depth="0.11" halign="center" valign="baseline">TA0.0</text>
-<path matrix="1 0 0 1 48 -111.9" stroke="black" fill="htwkdarkblue80">
+<text matrix="1 0 0 1 56 -93.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.755" height="6.525" depth="0.11" halign="center" valign="baseline">TA0.0</text>
+<path matrix="1 0 0 1 72 -111.9" stroke="black" fill="htwkdarkblue100">
 144 792
 144 796
 144 800
@@ -1275,8 +1071,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 32 -109.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.755" height="6.525" depth="0.11" halign="center" valign="baseline">TA1.0</text>
-<path matrix="1 0 0 1 48 -127.9" stroke="black" fill="htwkdarkblue80">
+<text matrix="1 0 0 1 56 -109.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.755" height="6.525" depth="0.11" halign="center" valign="baseline">TA1.0</text>
+<path matrix="1 0 0 1 72 -127.9" stroke="black" fill="htwkdarkblue100">
 144 792
 144 796
 144 800
@@ -1292,8 +1088,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 32 -125.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.755" height="6.525" depth="0.11" halign="center" valign="baseline">TA1.1</text>
-<path matrix="1 0 0 1 48 -143.9" stroke="black" fill="htwkdarkblue80">
+<text matrix="1 0 0 1 56 -125.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.755" height="6.525" depth="0.11" halign="center" valign="baseline">TA1.1</text>
+<path matrix="1 0 0 1 72 -143.9" stroke="black" fill="htwkdarkblue100">
 144 792
 144 796
 144 800
@@ -1309,7 +1105,7 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 32 -141.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.755" height="6.525" depth="0.11" halign="center" valign="baseline">TA1.1</text>
+<text matrix="1 0 0 1 56 -141.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.755" height="6.525" depth="0.11" halign="center" valign="baseline">TA1.1</text>
 <path matrix="1 0 0 1 176 2.1" stroke="black" fill="htwksilver100">
 208 796 m
 208 788 l
@@ -1380,267 +1176,57 @@ h
 196 796 l
 h
 </path>
-<path matrix="1 0 0 1 216 0.1" stroke="black" fill="htwkgray100">
-176 792
-176 796
-176 800
-180 800
-184 800
-188 800
-192 800
-192 796
-192 792
-192 788
-188 788
-184 788
-180 788
-176 788
-176 792 u
-</path>
-<text matrix="1 0 0 1 228 2.1" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.525" depth="0.11" halign="center" valign="baseline">20</text>
-<path matrix="1 0 0 1 216 2.1" stroke="black" pen="fat">
+<text matrix="1 0 0 1 192 2.1" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.525" depth="0.11" halign="center" valign="baseline">20</text>
+<path matrix="1 0 0 1 192 2.1" stroke="black" pen="fat">
 192 792 m
 200 792 l
 </path>
-<path matrix="1 0 0 1 216 2.1" stroke="black" pen="fat">
-176 792 m
-168 792 l
-</path>
-<path matrix="1 0 0 1 216 -15.9" stroke="black" fill="htwkgray100">
-176 792
-176 796
-176 800
-180 800
-184 800
-188 800
-192 800
-192 796
-192 792
-192 788
-188 788
-184 788
-180 788
-176 788
-176 792 u
-</path>
-<text matrix="1 0 0 1 228 -13.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.525" depth="0.11" halign="center" valign="baseline">19</text>
-<path matrix="1 0 0 1 216 -13.9" stroke="black" pen="fat">
+<text matrix="1 0 0 1 192 -13.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.525" depth="0.11" halign="center" valign="baseline">19</text>
+<path matrix="1 0 0 1 192 -13.9" stroke="black" pen="fat">
 192 792 m
 200 792 l
 </path>
-<path matrix="1 0 0 1 216 -13.9" stroke="black" pen="fat">
-176 792 m
-168 792 l
-</path>
-<path matrix="1 0 0 1 216 -31.9" stroke="black" fill="htwkgray100">
-176 792
-176 796
-176 800
-180 800
-184 800
-188 800
-192 800
-192 796
-192 792
-192 788
-188 788
-184 788
-180 788
-176 788
-176 792 u
-</path>
-<text matrix="1 0 0 1 228 -29.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.525" depth="0.11" halign="center" valign="baseline">18</text>
-<path matrix="1 0 0 1 216 -29.9" stroke="black" pen="fat">
+<text matrix="1 0 0 1 192 -29.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.525" depth="0.11" halign="center" valign="baseline">18</text>
+<path matrix="1 0 0 1 192 -29.9" stroke="black" pen="fat">
 192 792 m
 200 792 l
 </path>
-<path matrix="1 0 0 1 216 -29.9" stroke="black" pen="fat">
-176 792 m
-168 792 l
-</path>
-<path matrix="1 0 0 1 216 -47.9" stroke="black" fill="htwkgray100">
-176 792
-176 796
-176 800
-180 800
-184 800
-188 800
-192 800
-192 796
-192 792
-192 788
-188 788
-184 788
-180 788
-176 788
-176 792 u
-</path>
-<text matrix="1 0 0 1 228 -45.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.516" depth="0" halign="center" valign="baseline">17</text>
-<path matrix="1 0 0 1 216 -45.9" stroke="black" pen="fat">
+<text matrix="1 0 0 1 192 -45.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.516" depth="0" halign="center" valign="baseline">17</text>
+<path matrix="1 0 0 1 192 -45.9" stroke="black" pen="fat">
 192 792 m
 200 792 l
 </path>
-<path matrix="1 0 0 1 216 -45.9" stroke="black" pen="fat">
-176 792 m
-168 792 l
-</path>
-<path matrix="1 0 0 1 216 -63.9" stroke="black" fill="htwkgray100">
-176 792
-176 796
-176 800
-180 800
-184 800
-188 800
-192 800
-192 796
-192 792
-192 788
-188 788
-184 788
-180 788
-176 788
-176 792 u
-</path>
-<text matrix="1 0 0 1 228 -61.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.525" depth="0.11" halign="center" valign="baseline">16</text>
-<path matrix="1 0 0 1 216 -61.9" stroke="black" pen="fat">
+<text matrix="1 0 0 1 192 -61.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.525" depth="0.11" halign="center" valign="baseline">16</text>
+<path matrix="1 0 0 1 192 -61.9" stroke="black" pen="fat">
 192 792 m
 200 792 l
 </path>
-<path matrix="1 0 0 1 216 -61.9" stroke="black" pen="fat">
-176 792 m
-168 792 l
-</path>
-<path matrix="1 0 0 1 216 -79.9" stroke="black" fill="htwkgray100">
-176 792
-176 796
-176 800
-180 800
-184 800
-188 800
-192 800
-192 796
-192 792
-192 788
-188 788
-184 788
-180 788
-176 788
-176 792 u
-</path>
-<text matrix="1 0 0 1 228 -77.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.525" depth="0.11" halign="center" valign="baseline">15</text>
-<path matrix="1 0 0 1 216 -77.9" stroke="black" pen="fat">
+<text matrix="1 0 0 1 192 -77.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.525" depth="0.11" halign="center" valign="baseline">15</text>
+<path matrix="1 0 0 1 192 -77.9" stroke="black" pen="fat">
 192 792 m
 200 792 l
 </path>
-<path matrix="1 0 0 1 216 -77.9" stroke="black" pen="fat">
-176 792 m
-168 792 l
-</path>
-<path matrix="1 0 0 1 216 -95.9" stroke="black" fill="htwkgray100">
-176 792
-176 796
-176 800
-180 800
-184 800
-188 800
-192 800
-192 796
-192 792
-192 788
-188 788
-184 788
-180 788
-176 788
-176 792 u
-</path>
-<text matrix="1 0 0 1 228 -93.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.516" depth="0" halign="center" valign="baseline">14</text>
-<path matrix="1 0 0 1 216 -93.9" stroke="black" pen="fat">
+<text matrix="1 0 0 1 192 -93.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.516" depth="0" halign="center" valign="baseline">14</text>
+<path matrix="1 0 0 1 192 -93.9" stroke="black" pen="fat">
 192 792 m
 200 792 l
 </path>
-<path matrix="1 0 0 1 216 -93.9" stroke="black" pen="fat">
-176 792 m
-168 792 l
-</path>
-<path matrix="1 0 0 1 216 -111.9" stroke="black" fill="htwkgray100">
-176 792
-176 796
-176 800
-180 800
-184 800
-188 800
-192 800
-192 796
-192 792
-192 788
-188 788
-184 788
-180 788
-176 788
-176 792 u
-</path>
-<text matrix="1 0 0 1 228 -109.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.525" depth="0.11" halign="center" valign="baseline">13</text>
-<path matrix="1 0 0 1 216 -109.9" stroke="black" pen="fat">
+<text matrix="1 0 0 1 192 -109.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.525" depth="0.11" halign="center" valign="baseline">13</text>
+<path matrix="1 0 0 1 192 -109.9" stroke="black" pen="fat">
 192 792 m
 200 792 l
 </path>
-<path matrix="1 0 0 1 216 -109.9" stroke="black" pen="fat">
-176 792 m
-168 792 l
-</path>
-<path matrix="1 0 0 1 216 -127.9" stroke="black" fill="htwkgray100">
-176 792
-176 796
-176 800
-180 800
-184 800
-188 800
-192 800
-192 796
-192 792
-192 788
-188 788
-184 788
-180 788
-176 788
-176 792 u
-</path>
-<text matrix="1 0 0 1 228 -125.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.516" depth="0" halign="center" valign="baseline">12</text>
-<path matrix="1 0 0 1 216 -125.9" stroke="black" pen="fat">
+<text matrix="1 0 0 1 192 -125.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.516" depth="0" halign="center" valign="baseline">12</text>
+<path matrix="1 0 0 1 192 -125.9" stroke="black" pen="fat">
 192 792 m
 200 792 l
 </path>
-<path matrix="1 0 0 1 216 -125.9" stroke="black" pen="fat">
-176 792 m
-168 792 l
-</path>
-<path matrix="1 0 0 1 216 -143.9" stroke="black" fill="htwkgray100">
-176 792
-176 796
-176 800
-180 800
-184 800
-188 800
-192 800
-192 796
-192 792
-192 788
-188 788
-184 788
-180 788
-176 788
-176 792 u
-</path>
-<text matrix="1 0 0 1 228 -141.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.516" depth="0" halign="center" valign="baseline">11</text>
-<path matrix="1 0 0 1 216 -141.9" stroke="black" pen="fat">
+<text matrix="1 0 0 1 192 -141.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="9.903" height="6.516" depth="0" halign="center" valign="baseline">11</text>
+<path matrix="1 0 0 1 192 -141.9" stroke="black" pen="fat">
 192 792 m
 200 792 l
 </path>
-<path matrix="1 0 0 1 216 -141.9" stroke="black" pen="fat">
-176 792 m
-168 792 l
-</path>
-<path matrix="1 0 0 1 272 0.1" stroke="black" fill="htwkgray60">
+<path matrix="1 0 0 1 248 0.1" stroke="black" fill="htwkgray60">
 144 792
 144 796
 144 800
@@ -1656,8 +1242,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 256 2.1" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="21.579" height="6.525" depth="0.11" halign="center" valign="baseline">DVSS</text>
-<path matrix="1 0 0 1 272 -15.9" stroke="black" fill="htwkgreen">
+<text matrix="1 0 0 1 232 2.1" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="21.579" height="6.525" depth="0.11" halign="center" valign="baseline">DVSS</text>
+<path matrix="1 0 0 1 248 -15.9" stroke="black" fill="htwkgreen1">
 144 792
 144 796
 144 800
@@ -1673,8 +1259,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 256 -13.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P2.6</text>
-<path matrix="1 0 0 1 272 -31.9" stroke="black" fill="htwkgreen">
+<text matrix="1 0 0 1 232 -13.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P2.6</text>
+<path matrix="1 0 0 1 248 -31.9" stroke="black" fill="htwkgreen1">
 144 792
 144 796
 144 800
@@ -1690,8 +1276,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 256 -29.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P2.7</text>
-<path matrix="1 0 0 1 272 -47.9" stroke="black" fill="htwkgray60">
+<text matrix="1 0 0 1 232 -29.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P2.7</text>
+<path matrix="1 0 0 1 248 -47.9" stroke="black" fill="htwkgray60">
 144 792
 144 796
 144 800
@@ -1707,8 +1293,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 256 -45.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="21.051" height="6.525" depth="0.11" halign="center" valign="baseline">TEST</text>
-<path matrix="1 0 0 1 272 -63.9" stroke="black" fill="htwkgray60">
+<text matrix="1 0 0 1 232 -45.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="21.051" height="6.525" depth="0.11" halign="center" valign="baseline">TEST</text>
+<path matrix="1 0 0 1 248 -63.9" stroke="black" fill="htwkgray60">
 144 792
 144 796
 144 800
@@ -1724,8 +1310,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 256 -61.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="16" height="8.518" depth="0.11" halign="center" valign="baseline" style="math">\overline{\text{RST}}</text>
-<path matrix="1 0 0 1 272 -79.9" stroke="black" fill="htwkgreen">
+<text matrix="1 0 0 1 232 -61.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="16" height="8.518" depth="0.11" halign="center" valign="baseline" style="math">\overline{\text{RST}}</text>
+<path matrix="1 0 0 1 248 -79.9" stroke="black" fill="htwkgreen">
 144 792
 144 796
 144 800
@@ -1741,8 +1327,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 256 -77.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P1.7</text>
-<path matrix="1 0 0 1 272 -95.9" stroke="black" fill="htwkgreen">
+<text matrix="1 0 0 1 232 -77.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P1.7</text>
+<path matrix="1 0 0 1 248 -95.9" stroke="black" fill="htwkgreen">
 144 792
 144 796
 144 800
@@ -1758,8 +1344,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 256 -93.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P1.6</text>
-<path matrix="1 0 0 1 272 -111.9" stroke="black" fill="htwkgreen">
+<text matrix="1 0 0 1 232 -93.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P1.6</text>
+<path matrix="1 0 0 1 248 -111.9" stroke="black" fill="htwkgreen1">
 144 792
 144 796
 144 800
@@ -1775,8 +1361,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 256 -109.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P2.5</text>
-<path matrix="1 0 0 1 272 -127.9" stroke="black" fill="htwkgreen">
+<text matrix="1 0 0 1 232 -109.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P2.5</text>
+<path matrix="1 0 0 1 248 -127.9" stroke="black" fill="htwkgreen1">
 144 792
 144 796
 144 800
@@ -1792,8 +1378,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 256 -125.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P2.4</text>
-<path matrix="1 0 0 1 272 -143.9" stroke="black" fill="htwkgreen">
+<text matrix="1 0 0 1 232 -125.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P2.4</text>
+<path matrix="1 0 0 1 248 -143.9" stroke="black" fill="htwkgreen1">
 144 792
 144 796
 144 800
@@ -1809,8 +1395,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 256 -141.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P2.3</text>
-<path matrix="1 0 0 1 392 -15.9" stroke="black" fill="htwkblue">
+<text matrix="1 0 0 1 232 -141.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="18.042" height="6.525" depth="0.11" halign="center" valign="baseline">P2.3</text>
+<path matrix="1 0 0 1 368 -15.9" stroke="black" fill="htwkblue">
 56 728
 56 732
 56 736
@@ -1826,8 +1412,8 @@ h
 60 724
 56 724 u
 </path>
-<text matrix="1 0 0 1 292 -77.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="29.4" height="6.525" depth="0.11" halign="center" valign="baseline">CAOUT</text>
-<path matrix="1 0 0 1 308 -95.9" stroke="black" fill="htwkdarkblue80">
+<text matrix="1 0 0 1 268 -77.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="29.4" height="6.525" depth="0.11" halign="center" valign="baseline">CAOUT</text>
+<path matrix="1 0 0 1 284 -95.9" stroke="black" fill="htwkdarkblue80">
 144 792
 144 796
 144 800
@@ -1843,8 +1429,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 292 -93.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.755" height="6.525" depth="0.11" halign="center" valign="baseline">TA0.1</text>
-<path matrix="1 0 0 1 308 -111.9" stroke="black" fill="htwkdarkblue80">
+<text matrix="1 0 0 1 268 -93.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.755" height="6.525" depth="0.11" halign="center" valign="baseline">TA0.1</text>
+<path matrix="1 0 0 1 284 -111.9" stroke="black" fill="htwkdarkblue100">
 144 792
 144 796
 144 800
@@ -1860,8 +1446,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 292 -109.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.755" height="6.525" depth="0.11" halign="center" valign="baseline">TA1.2</text>
-<path matrix="1 0 0 1 308 -127.9" stroke="black" fill="htwkdarkblue80">
+<text matrix="1 0 0 1 268 -109.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.755" height="6.525" depth="0.11" halign="center" valign="baseline">TA1.2</text>
+<path matrix="1 0 0 1 284 -127.9" stroke="black" fill="htwkdarkblue100">
 144 792
 144 796
 144 800
@@ -1877,8 +1463,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 292 -125.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.755" height="6.525" depth="0.11" halign="center" valign="baseline">TA1.2</text>
-<path matrix="1 0 0 1 308 -143.9" stroke="black" fill="htwkdarkblue80">
+<text matrix="1 0 0 1 268 -125.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.755" height="6.525" depth="0.11" halign="center" valign="baseline">TA1.2</text>
+<path matrix="1 0 0 1 284 -143.9" stroke="black" fill="htwkdarkblue100">
 144 792
 144 796
 144 800
@@ -1894,8 +1480,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 292 -141.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.755" height="6.525" depth="0.11" halign="center" valign="baseline">TA1.0</text>
-<path matrix="1 0 0 1 308 -15.9" stroke="black" fill="htwkgray60">
+<text matrix="1 0 0 1 268 -141.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="22.755" height="6.525" depth="0.11" halign="center" valign="baseline">TA1.0</text>
+<path matrix="1 0 0 1 284 -15.9" stroke="black" fill="htwkgray60">
 144 792
 144 796
 144 800
@@ -1911,8 +1497,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 292 -13.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="14.177" height="6.516" depth="0" halign="center" valign="baseline">XIN</text>
-<path matrix="1 0 0 1 308 -31.9" stroke="black" fill="htwkgray60">
+<text matrix="1 0 0 1 268 -13.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="14.177" height="6.516" depth="0" halign="center" valign="baseline">XIN</text>
+<path matrix="1 0 0 1 284 -31.9" stroke="black" fill="htwkgray60">
 144 792
 144 796
 144 800
@@ -1928,8 +1514,8 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 292 -29.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="23.342" height="6.525" depth="0.11" halign="center" valign="baseline">XOUT</text>
-<path matrix="1 0 0 1 368 -79.9" stroke="black" fill="htwkred">
+<text matrix="1 0 0 1 268 -29.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="23.342" height="6.525" depth="0.11" halign="center" valign="baseline">XOUT</text>
+<path matrix="1 0 0 1 344 -79.9" stroke="black" fill="htwkyellow2">
 144 792
 144 796
 144 800
@@ -1945,7 +1531,7 @@ h
 148 788
 144 788 u
 </path>
-<path matrix="1 0 0 1 344 -79.9" stroke="black" fill="htwkred">
+<path matrix="1 0 0 1 320 -79.9" stroke="black" fill="htwkyellow2">
 144 792
 144 796
 144 800
@@ -1961,9 +1547,9 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 328 -77.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="21.798" height="6.525" depth="0.11" halign="center" valign="baseline">MOSI</text>
-<text matrix="1 0 0 1 352 -77.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="16.777" height="6.525" depth="0.11" halign="center" valign="baseline">SDA</text>
-<path matrix="1 0 0 1 368 -95.9" stroke="black" fill="htwkred">
+<text matrix="1 0 0 1 304 -77.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="21.798" height="6.525" depth="0.11" halign="center" valign="baseline">MOSI</text>
+<text matrix="1 0 0 1 328 -77.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="16.777" height="6.525" depth="0.11" halign="center" valign="baseline">SDA</text>
+<path matrix="1 0 0 1 344 -95.9" stroke="black" fill="htwkyellow2">
 144 792
 144 796
 144 800
@@ -1979,7 +1565,7 @@ h
 148 788
 144 788 u
 </path>
-<path matrix="1 0 0 1 344 -95.9" stroke="black" fill="htwkred">
+<path matrix="1 0 0 1 320 -95.9" stroke="black" fill="htwkyellow2">
 144 792
 144 796
 144 800
@@ -1995,9 +1581,9 @@ h
 148 788
 144 788 u
 </path>
-<text matrix="1 0 0 1 328 -93.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="21.798" height="6.525" depth="0.11" halign="center" valign="baseline">MISO</text>
-<text matrix="1 0 0 1 352 -93.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="15.851" height="6.525" depth="0.11" halign="center" valign="baseline">SCL</text>
-<path matrix="1 0 0 1 368 -79.9" stroke="black" fill="htwkblue">
+<text matrix="1 0 0 1 304 -93.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="21.798" height="6.525" depth="0.11" halign="center" valign="baseline">MISO</text>
+<text matrix="1 0 0 1 328 -93.9" transformations="translations" pos="172 788" stroke="htwkblack" type="label" width="15.851" height="6.525" depth="0.11" halign="center" valign="baseline">SCL</text>
+<path matrix="1 0 0 1 344 -79.9" stroke="black" fill="htwkblue">
 176 792
 176 796
 176 800
@@ -2014,8 +1600,8 @@ h
 176 788
 176 792 u
 </path>
-<text matrix="1 0 0 1 380 -77.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="10.371" height="6.516" depth="0" halign="center" valign="baseline">A7</text>
-<path matrix="1 0 0 1 368 -95.9" stroke="black" fill="htwkblue">
+<text matrix="1 0 0 1 356 -77.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="10.371" height="6.516" depth="0" halign="center" valign="baseline">A7</text>
+<path matrix="1 0 0 1 344 -95.9" stroke="black" fill="htwkblue">
 176 792
 176 796
 176 800
@@ -2032,211 +1618,241 @@ h
 176 788
 176 792 u
 </path>
-<text matrix="1 0 0 1 380 -93.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="10.371" height="6.525" depth="0.11" halign="center" valign="baseline">A6</text>
+<text matrix="1 0 0 1 356 -93.9" transformations="translations" pos="172 788" stroke="htwkwhite" type="label" width="10.371" height="6.525" depth="0.11" halign="center" valign="baseline">A6</text>
 <text matrix="0.00044463 -1 1 0.00044463 -388.119 970.418" transformations="rigid" pos="248 720" stroke="htwkwhite" type="label" width="108.251" height="11.644" depth="0.2" halign="center" valign="baseline" size="LARGE">\bfseries MSP430G2553</text>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 112 -2" stroke="black" pen="fat">
 144 780 m
 140 780 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 112 -2" stroke="black" pen="fat">
 144 764 m
 128 764 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 112 -2" stroke="black" pen="fat">
 104 764 m
 96 764 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 112 -2" stroke="black" pen="fat">
 48 764 m
 32 764 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 112 -2" stroke="black" pen="fat">
 92 780 m
 32 780 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 112 -2" stroke="black" pen="fat">
 48 748 m
 32 748 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 112 -2" stroke="black" pen="fat">
 104 748 m
 96 748 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 112 -2" stroke="black" pen="fat">
 144 748 m
 128 748 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 112 -2" stroke="black" pen="fat">
 144 732 m
 136 732 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 112 -2" stroke="black" pen="fat">
 96 732 m
 88 732 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 112 -2" stroke="black" pen="fat">
 56 732 m
 44 732 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 112 -2" stroke="black" pen="fat">
 44 716 m
 48 716 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 112 -2" stroke="black" pen="fat">
 96 716 m
 100 716 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 112 -2" stroke="black" pen="fat">
 132 716 m
 144 716 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 112 -2" stroke="black" pen="fat">
 144 700 m
 128 700 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 112 -2" stroke="black" pen="fat">
 104 700 m
 96 700 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 112 -2" stroke="black" pen="fat">
 48 700 m
 32 700 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 112 -2" stroke="black" pen="fat">
 128 684 m
 144 684 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 112 -2" stroke="black" pen="fat">
 128 668 m
 144 668 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 112 -2" stroke="black" pen="fat">
 128 652 m
 144 652 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 64 -2" stroke="black" pen="fat">
 364 780 m
 352 780 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 64 -2" stroke="black" pen="fat">
 364 764 m
 352 764 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 64 -2" stroke="black" pen="fat">
 360 716 m
 352 716 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 64 -2" stroke="black" pen="fat">
 364 700 m
 352 700 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 64 -2" stroke="black" pen="fat">
 364 684 m
 352 684 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 64 -2" stroke="black" pen="fat">
 364 668 m
 352 668 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 64 -2" stroke="black" pen="fat">
 364 652 m
 352 652 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 64 -2" stroke="black" pen="fat">
 400 716 m
 392 716 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 64 -2" stroke="black" pen="fat">
 456 716 m
 448 716 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 64 -2" stroke="black" pen="fat">
 456 700 m
 448 700 l
 </path>
-<path matrix="1 0 0 1 88 -2" stroke="black" pen="fat">
+<path matrix="1 0 0 1 64 -2" stroke="black" pen="fat">
 400 700 m
 388 700 l
 </path>
-<path matrix="1 0 0 1 24 -2" stroke="htwkgray60" pen="fat">
-2 0 0 2 282 796 e
-</path>
-<path matrix="1 0 0 1 0 8" stroke="black" fill="htwkgray100">
-28 676 m
-28 660 l
-180 660 l
-180 676 l
-h
-</path>
-<path matrix="1 0 0 1 0 -8" stroke="black" fill="htwkgray60">
-28 676 m
-28 660 l
-180 660 l
-180 676 l
-h
-</path>
-<path matrix="1 0 0 1 0 -24" stroke="black" fill="htwkgreen">
-28 676 m
-28 660 l
-180 660 l
-180 676 l
-h
-</path>
-<path matrix="1 0 0 1 0 -40" stroke="black" fill="htwkdarkblue80">
-28 676 m
-28 660 l
-180 660 l
-180 676 l
-h
-</path>
-<path matrix="1 0 0 1 0 -56" stroke="black" fill="htwkyellow">
-28 676 m
-28 660 l
-180 660 l
-180 676 l
-h
-</path>
-<path matrix="1 0 0 1 0 -72" stroke="black" fill="htwkred">
-28 676 m
-28 660 l
-180 660 l
-180 676 l
-h
-</path>
-<path matrix="1 0 0 1 0 -88" stroke="black" fill="htwkblue">
-28 676 m
-28 660 l
-180 660 l
-180 676 l
-h
-</path>
-<text matrix="1 0 0 1 40 16" transformations="translations" pos="64 656" stroke="htwkwhite" type="label" width="48.608" height="6.953" depth="0.11" halign="center" valign="baseline">Pin number</text>
-<text matrix="1 0 0 1 40 16" transformations="translations" pos="64 640" stroke="htwkwhite" type="label" width="145.444" height="6.946" depth="2.06" halign="center" valign="baseline">Power supply, Basic Clock Module+</text>
-<text matrix="1 0 0 1 40 16" transformations="translations" pos="64 624" stroke="htwkwhite" type="label" width="64.976" height="6.519" depth="1.72" halign="center" valign="baseline">Port P1, Port P2</text>
-<text matrix="1 0 0 1 40 16" transformations="translations" pos="64 608" stroke="htwkwhite" type="label" width="94.027" height="6.947" depth="1.72" halign="center" valign="baseline">Timer0\_A3, Timer1\_A3</text>
-<text matrix="1 0 0 1 40 16" transformations="translations" pos="64 592" stroke="black" type="label" width="25.385" height="6.525" depth="0.11" halign="center" valign="baseline">USCIA</text>
-<text matrix="1 0 0 1 40 16" transformations="translations" pos="64 576" stroke="black" type="label" width="25.823" height="6.525" depth="0.11" halign="center" valign="baseline">USCIB</text>
-<text matrix="1 0 0 1 40 16" transformations="translations" pos="64 560" stroke="htwkwhite" type="label" width="93.967" height="6.518" depth="2.06" halign="center" valign="baseline">ADC10, Comparator A+</text>
-<text matrix="1 0 0 1 -64 4" transformations="translations" pos="464 624" stroke="htwkblack" type="minipage" width="180" height="31.075" depth="26.14" valign="top">Leipzig University of Applied Sciences \\
+<text matrix="1 0 0 1 -60 16" transformations="translations" pos="464 624" stroke="htwkblack" type="minipage" width="148" height="25.154" depth="20.22" valign="top" size="footnote">Leipzig University of Applied Sciences \\
 Faculty of Engineering \\
 Robert Fromm \\
 published under Creative Commons BY-SA \\
 July 2020</text>
-<text matrix="1 0 0 1 4 -8" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="35.238" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL=0</text>
-<text matrix="1 0 0 1 4 -16" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="40.189" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL2=0</text>
-<text matrix="1 0 0 1 -40 -8" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="35.238" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL=1</text>
-<text matrix="1 0 0 1 -40 -16" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="40.189" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL2=0</text>
-<text matrix="1 0 0 1 -84 -8" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="35.238" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL=1</text>
-<text matrix="1 0 0 1 -84 -16" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="40.189" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL2=1</text>
-<text matrix="1 0 0 1 -132 -12" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="37.818" height="6.525" depth="0.11" halign="center" valign="baseline">ADC10AE</text>
-<text matrix="1 0 0 1 176 -8" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="35.238" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL=0</text>
-<text matrix="1 0 0 1 176 -16" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="40.189" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL2=0</text>
-<text matrix="1 0 0 1 220 -8" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="35.238" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL=1</text>
-<text matrix="1 0 0 1 220 -16" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="40.189" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL2=0</text>
-<text matrix="1 0 0 1 264 -8" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="35.238" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL=1</text>
-<text matrix="1 0 0 1 264 -16" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="40.189" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL2=1</text>
-<text matrix="1 0 0 1 308 -12" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="37.818" height="6.525" depth="0.11" halign="center" valign="baseline">ADC10AE</text>
-<text matrix="1 0 0 1 -20 0" transformations="translations" pos="188 628" stroke="htwkblack" type="minipage" width="212" height="22.643" depth="17.69" valign="top" size="footnote" style="itemize">\item All pins of ports P1 and P2 can be used as an interrupt source.
+<text matrix="1 0 0 1 28 -8" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="35.238" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL=0</text>
+<text matrix="1 0 0 1 28 -16" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="40.189" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL2=0</text>
+<text matrix="1 0 0 1 -16 -8" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="35.238" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL=1</text>
+<text matrix="1 0 0 1 -16 -16" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="40.189" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL2=0</text>
+<text matrix="1 0 0 1 -60 -8" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="35.238" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL=1</text>
+<text matrix="1 0 0 1 -60 -16" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="40.189" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL2=1</text>
+<text matrix="1 0 0 1 -108 -12" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="37.818" height="6.525" depth="0.11" halign="center" valign="baseline">ADC10AE</text>
+<text matrix="1 0 0 1 152 -8" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="35.238" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL=0</text>
+<text matrix="1 0 0 1 152 -16" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="40.189" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL2=0</text>
+<text matrix="1 0 0 1 196 -8" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="35.238" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL=1</text>
+<text matrix="1 0 0 1 196 -16" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="40.189" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL2=0</text>
+<text matrix="1 0 0 1 240 -8" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="35.238" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL=1</text>
+<text matrix="1 0 0 1 240 -16" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="40.189" height="6.525" depth="0.11" halign="center" valign="baseline">PxSEL2=1</text>
+<text matrix="1 0 0 1 284 -12" transformations="translations" pos="244 820" stroke="htwkblack" type="label" width="37.818" height="6.525" depth="0.11" halign="center" valign="baseline">ADC10AE</text>
+<text matrix="1 0 0 1 0 12" transformations="translations" pos="188 628" stroke="htwkblack" type="minipage" width="212" height="22.643" depth="17.69" valign="top" size="footnote" style="itemize">\item All pins of ports P1 and P2 can be used as an interrupt source.
 \item Capacitive sensing is enabled by setting PxSEL=0 and PxSEL2=1.</text>
+<path matrix="1 0 0 1 8 52" fill="htwkyellow">
+40 576 m
+40 560 l
+116 560 l
+116 576 l
+h
+</path>
+<path matrix="1 0 0 1 84 52" fill="htwkyellow2">
+40 576 m
+40 560 l
+116 560 l
+116 576 l
+h
+</path>
+<path matrix="1 0 0 1 8 68" fill="htwkdarkblue80">
+40 576 m
+40 560 l
+116 560 l
+116 576 l
+h
+</path>
+<path matrix="1 0 0 1 84 68" fill="htwkdarkblue100">
+40 576 m
+40 560 l
+116 560 l
+116 576 l
+h
+</path>
+<path matrix="1 0 0 1 8 84" fill="htwkgreen">
+40 576 m
+40 560 l
+116 560 l
+116 576 l
+h
+</path>
+<path matrix="1 0 0 1 84 84" fill="htwkgreen1">
+40 576 m
+40 560 l
+116 560 l
+116 576 l
+h
+</path>
+<path matrix="1 0 0 1 20 0" stroke="black" fill="htwkgray60">
+28 676 m
+28 660 l
+180 660 l
+180 676 l
+h
+</path>
+<path matrix="1 0 0 1 20 -32" stroke="black">
+28 676 m
+28 660 l
+180 660 l
+180 676 l
+h
+</path>
+<path matrix="1 0 0 1 20 -48" stroke="black">
+28 676 m
+28 660 l
+180 660 l
+180 676 l
+h
+</path>
+<path matrix="1 0 0 1 20 -64" stroke="black" fill="htwkblue">
+28 676 m
+28 660 l
+180 660 l
+180 676 l
+h
+</path>
+<text matrix="1 0 0 1 60 24" transformations="translations" pos="64 640" stroke="htwkwhite" type="label" width="145.444" height="6.946" depth="2.06" halign="center" valign="baseline">Power supply, Basic Clock Module+</text>
+<text matrix="1 0 0 1 20 24" transformations="translations" pos="64 624" stroke="htwkwhite" type="label" width="30.247" height="6.525" depth="0.11" halign="center" valign="baseline">Port P1</text>
+<text matrix="1 0 0 1 20 24" transformations="translations" pos="64 608" stroke="htwkwhite" type="label" width="44.772" height="6.949" depth="1.25" halign="center" valign="baseline">Timer0\_A3</text>
+<text matrix="1 0 0 1 20 24" transformations="translations" pos="64 592" stroke="black" type="label" width="25.385" height="6.525" depth="0.11" halign="center" valign="baseline">USCIA</text>
+<text matrix="1 0 0 1 100 40" transformations="translations" pos="64 576" stroke="black" type="label" width="25.823" height="6.525" depth="0.11" halign="center" valign="baseline">USCIB</text>
+<text matrix="1 0 0 1 60 40" transformations="translations" pos="64 560" stroke="htwkwhite" type="label" width="93.967" height="6.518" depth="2.06" halign="center" valign="baseline">ADC10, Comparator A+</text>
+<path matrix="1 0 0 1 20 -16" stroke="black">
+28 676 m
+28 660 l
+180 660 l
+180 676 l
+h
+</path>
+<path matrix="1 0 0 1 8 -12" stroke="black">
+116 672 m
+116 624 l
+</path>
+<text matrix="1 0 0 1 96 24" transformations="translations" pos="64 624" stroke="htwkwhite" type="label" width="30.247" height="6.525" depth="0.11" halign="center" valign="baseline">Port P2</text>
+<text matrix="1 0 0 1 96 24" transformations="translations" pos="64 608" stroke="htwkwhite" type="label" width="44.772" height="6.949" depth="1.25" halign="center" valign="baseline">Timer1\_A3</text>
 </page>
 </ipe>
